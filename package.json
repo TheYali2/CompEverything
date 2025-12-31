@@ -1,0 +1,29 @@
+{
+  "name": "compeverything",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-dom": "^19.2.3",
+    "react": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "framer-motion": "^12.23.26",
+    "uuid": "^13.0.0",
+    "browser-image-compression": "^2.0.2",
+    "pdf-lib": "^1.17.1",
+    "jszip": "^3.10.1",
+    "@ffmpeg/util": "^0.12.2",
+    "@ffmpeg/ffmpeg": "^0.12.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
